@@ -23,8 +23,11 @@ AI業務キット集 / 最初に読むメモ
 6. 記入例
    https://uzikin7-lang.github.io/ai-tool-checklist-sample/examples.html
 
-7. AIに貼る文
+7. FAQ
+   https://uzikin7-lang.github.io/ai-tool-checklist-sample/faq.html
+
+8. AIに貼る文
    https://uzikin7-lang.github.io/ai-tool-checklist-sample/prompts.html
 
-8. 改善リクエスト
+9. 改善リクエスト
    https://github.com/uzikin7-lang/ai-tool-checklist-sample/issues/new?template=feedback.yml
