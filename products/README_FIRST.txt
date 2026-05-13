@@ -34,23 +34,26 @@ AI業務キット集 / 最初に読むメモ
 5. 迷った時のページ
    https://uzikin7-lang.github.io/ai-tool-checklist-sample/start-here.html
 
-6. 記入例
+6. 用途一覧
+   https://uzikin7-lang.github.io/ai-tool-checklist-sample/catalog.html
+
+7. 記入例
    https://uzikin7-lang.github.io/ai-tool-checklist-sample/examples.html
 
-7. FAQ
+8. FAQ
    https://uzikin7-lang.github.io/ai-tool-checklist-sample/faq.html
 
-8. AIに貼る文
+9. AIに貼る文
    https://uzikin7-lang.github.io/ai-tool-checklist-sample/prompts.html
 
-9. 次に作る候補
+10. 次に作る候補
    https://uzikin7-lang.github.io/ai-tool-checklist-sample/requests.html
 
-10. 更新履歴
+11. 更新履歴
    https://uzikin7-lang.github.io/ai-tool-checklist-sample/updates.html
 
-11. 配布ファイル一覧
+12. 配布ファイル一覧
    https://uzikin7-lang.github.io/ai-tool-checklist-sample/products/inventory.json
 
-12. 改善リクエスト
+13. 改善リクエスト
    https://github.com/uzikin7-lang/ai-tool-checklist-sample/issues/new?template=feedback.yml

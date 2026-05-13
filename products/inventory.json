@@ -7,14 +7,14 @@
     {
       "file": "README_FIRST.txt",
       "url": "https://uzikin7-lang.github.io/ai-tool-checklist-sample/products/README_FIRST.txt",
-      "bytes": 2430,
-      "sha256": "a5f08578ac0784cced9fe367c5c958be6675c5c41a8bc3f2fe0abc7f3df7ec8e"
+      "bytes": 2520,
+      "sha256": "40333f8239c5dcd70abbf35ad0d568a482c81955ee8af89f10ca28b447e7ff99"
     },
     {
       "file": "AI_Workflow_Kits_Free_Bundle_v0.1.zip",
       "url": "https://uzikin7-lang.github.io/ai-tool-checklist-sample/products/AI_Workflow_Kits_Free_Bundle_v0.1.zip",
-      "bytes": 135014,
-      "sha256": "f31f1f5db0df3237c8615062b3cb17e9922797b90fccca37866d90e6ae94c72b"
+      "bytes": 135034,
+      "sha256": "705d9f02c4bcf31c2739a38bb02aa3e0508e7546446f672595548a938286b60f"
     },
     {
       "file": "AI_Tool_Selection_Checklist_v0.1.xlsx",
@@ -79,8 +79,8 @@
     {
       "file": "manifest.json",
       "url": "https://uzikin7-lang.github.io/ai-tool-checklist-sample/products/manifest.json",
-      "bytes": 7202,
-      "sha256": "49e8420268f7f8b3554104666393ef302a978e25e2857fd21c8c2b55b3fb214d"
+      "bytes": 7278,
+      "sha256": "9570bf9af9e4a578e9414817cd66e2decaf8f0c83373c729693a2dcc89f86bd7"
     }
   ]
 }
