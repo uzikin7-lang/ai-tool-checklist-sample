@@ -1,3 +1,4 @@
 User-agent: *
 Allow: /
 Sitemap: https://uzikin7-lang.github.io/ai-tool-checklist-sample/sitemap.xml
+LLMS: https://uzikin7-lang.github.io/ai-tool-checklist-sample/llms.txt
