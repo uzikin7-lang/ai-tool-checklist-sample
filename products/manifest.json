@@ -1,0 +1,84 @@
+{
+  "name": "AI業務キット集",
+  "version": "0.1",
+  "updated_at": "2026-05-14",
+  "public_page": "https://uzikin7-lang.github.io/ai-tool-checklist-sample/",
+  "bundle": "https://uzikin7-lang.github.io/ai-tool-checklist-sample/products/AI_Workflow_Kits_Free_Bundle_v0.1.zip",
+  "support_pages": [
+    "https://uzikin7-lang.github.io/ai-tool-checklist-sample/selector.html",
+    "https://uzikin7-lang.github.io/ai-tool-checklist-sample/start-here.html",
+    "https://uzikin7-lang.github.io/ai-tool-checklist-sample/examples.html",
+    "https://uzikin7-lang.github.io/ai-tool-checklist-sample/faq.html",
+    "https://uzikin7-lang.github.io/ai-tool-checklist-sample/prompts.html",
+    "https://uzikin7-lang.github.io/ai-tool-checklist-sample/share.html",
+    "https://uzikin7-lang.github.io/ai-tool-checklist-sample/pro.html",
+    "https://uzikin7-lang.github.io/ai-tool-checklist-sample/requests.html",
+    "https://uzikin7-lang.github.io/ai-tool-checklist-sample/updates.html"
+  ],
+  "kits": [
+    {
+      "id": "ai-tool-checklist",
+      "title": "AI導入 90分診断キット",
+      "page": "https://uzikin7-lang.github.io/ai-tool-checklist-sample/ai-tool-checklist-lp.html",
+      "file": "https://uzikin7-lang.github.io/ai-tool-checklist-sample/products/AI_Tool_Selection_Checklist_v0.1.xlsx",
+      "audience": "AIツールを買う前に、どの作業からAI化するべきか決めたい小規模事業者・副業ワーカー",
+      "promise": "毎週の手作業を棚卸しし、削減時間、月額費用、リスクを並べて、最初に試すAI化候補を1つに絞れます。"
+    },
+    {
+      "id": "ec-listing",
+      "title": "EC/フリマ 商品説明AIキット",
+      "page": "https://uzikin7-lang.github.io/ai-tool-checklist-sample/ec-listing-ai-kit.html",
+      "file": "https://uzikin7-lang.github.io/ai-tool-checklist-sample/products/EC_FleaMarket_AI_Listing_Kit_v0.1.xlsx",
+      "audience": "メルカリ、BASE、Shopify、楽天などで商品説明を改善したい人",
+      "promise": "商品説明をAIに丸投げせず、事実確認、購入前不安、禁止表現チェックを通して安全に出品文を改善できます。"
+    },
+    {
+      "id": "salon",
+      "title": "サロンSNS・予約導線AIキット",
+      "page": "https://uzikin7-lang.github.io/ai-tool-checklist-sample/salon-ai-kit.html",
+      "file": "https://uzikin7-lang.github.io/ai-tool-checklist-sample/products/Salon_SNS_Booking_AI_Kit_v0.1.xlsx",
+      "audience": "美容室、ネイル、整体、エステなど、SNSから予約につなげたい小規模サロン",
+      "promise": "メニュー説明、投稿カレンダー、表現安全チェック、写真利用許可、予約導線をまとめて整えられます。"
+    },
+    {
+      "id": "professional-services",
+      "title": "士業/コンサル 問い合わせ整理AIキット",
+      "page": "https://uzikin7-lang.github.io/ai-tool-checklist-sample/professional-services-ai-kit.html",
+      "file": "https://uzikin7-lang.github.io/ai-tool-checklist-sample/products/Professional_Services_Inquiry_AI_Kit_v0.1.xlsx",
+      "audience": "行政書士、社労士、税理士、コンサルなど、問い合わせ対応を整理したい専門サービス",
+      "promise": "専門判断をAIに任せず、相談内容の整理、振り分け、面談準備、返信下書きを安全に進められます。"
+    },
+    {
+      "id": "hiring",
+      "title": "採用/求人票AIキット",
+      "page": "https://uzikin7-lang.github.io/ai-tool-checklist-sample/hiring-ai-kit.html",
+      "file": "https://uzikin7-lang.github.io/ai-tool-checklist-sample/products/Hiring_Job_Posting_AI_Kit_v0.1.xlsx",
+      "audience": "求人票や候補者返信を改善したい小規模事業者・採用担当",
+      "promise": "仕事内容、条件、向いている人、向いていない人、候補者返信、表現リスクを整理できます。"
+    },
+    {
+      "id": "local-store",
+      "title": "地域店舗 Googleビジネス投稿AIキット",
+      "page": "https://uzikin7-lang.github.io/ai-tool-checklist-sample/local-store-ai-kit.html",
+      "file": "https://uzikin7-lang.github.io/ai-tool-checklist-sample/products/Local_Store_GBP_AI_Kit_v0.1.xlsx",
+      "audience": "飲食店、小売、教室、クリニック以外の地域店舗",
+      "promise": "Googleビジネスプロフィール投稿、FAQ、口コミ返信を、営業時間・価格・在庫の正確性を確認しながら作れます。"
+    },
+    {
+      "id": "creator-title",
+      "title": "YouTube/配信タイトル構成AIキット",
+      "page": "https://uzikin7-lang.github.io/ai-tool-checklist-sample/creator-title-ai-kit.html",
+      "file": "https://uzikin7-lang.github.io/ai-tool-checklist-sample/products/Creator_Title_Hook_AI_Kit_v0.1.xlsx",
+      "audience": "YouTube、ライブ配信、ショート動画のタイトルや冒頭構成を改善したい個人クリエイター",
+      "promise": "視聴者の悩み、タイトル案、冒頭15秒、サムネ文言、公開後テストを整理し、釣りすぎない企画改善ができます。"
+    },
+    {
+      "id": "monthly-report",
+      "title": "月次報告AIキット",
+      "page": "https://uzikin7-lang.github.io/ai-tool-checklist-sample/monthly-report-ai-kit.html",
+      "file": "https://uzikin7-lang.github.io/ai-tool-checklist-sample/products/Monthly_Report_AI_Kit_v0.1.xlsx",
+      "audience": "個人事業、副業、小規模チームで月末の振り返りや報告を短時間でまとめたい人",
+      "promise": "売上、作業時間、問い合わせ、出来事、来月の打ち手を分けて入力し、AIに月次報告の下書きを安全に作らせられます。"
+    }
+  ]
+}

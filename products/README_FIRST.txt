@@ -32,5 +32,8 @@ AI業務キット集 / 最初に読むメモ
 9. 次に作る候補
    https://uzikin7-lang.github.io/ai-tool-checklist-sample/requests.html
 
-10. 改善リクエスト
+10. 更新履歴
+   https://uzikin7-lang.github.io/ai-tool-checklist-sample/updates.html
+
+11. 改善リクエスト
    https://github.com/uzikin7-lang/ai-tool-checklist-sample/issues/new?template=feedback.yml
