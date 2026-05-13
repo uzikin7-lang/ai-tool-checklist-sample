@@ -1,6 +1,6 @@
 AI業務キット集 / 最初に読むメモ
 
-1. 10つ全部を使う必要はありません。
+1. 10種類全部を使う必要はありません。
    今いちばん時間を取られている作業に近いキットを1つだけ開いてください。
 
 2. 最初に埋める場所
@@ -15,11 +15,23 @@ AI業務キット集 / 最初に読むメモ
    - LINE公式返信: 返信受付
    - 請求・入金確認: 請求情報
 
-3. AIに任せる範囲
+3. 入っているExcelファイル
+   - AI導入 90分診断キット: AI_Tool_Selection_Checklist_v0.1.xlsx
+   - EC/フリマ 商品説明AIキット: EC_FleaMarket_AI_Listing_Kit_v0.1.xlsx
+   - サロンSNS・予約導線AIキット: Salon_SNS_Booking_AI_Kit_v0.1.xlsx
+   - 士業/コンサル 問い合わせ整理AIキット: Professional_Services_Inquiry_AI_Kit_v0.1.xlsx
+   - 採用/求人票AIキット: Hiring_Job_Posting_AI_Kit_v0.1.xlsx
+   - 地域店舗 Googleビジネス投稿AIキット: Local_Store_GBP_AI_Kit_v0.1.xlsx
+   - YouTube/配信タイトル構成AIキット: Creator_Title_Hook_AI_Kit_v0.1.xlsx
+   - 月次報告AIキット: Monthly_Report_AI_Kit_v0.1.xlsx
+   - LINE公式返信AIキット: LINE_Official_Reply_AI_Kit_v0.1.xlsx
+   - 請求・入金確認AIキット: Invoice_Payment_Followup_AI_Kit_v0.1.xlsx
+
+4. AIに任せる範囲
    AIは下書き、整理、言い換えに使います。
    送信、公開、契約、価格、効果保証、個人情報に関わる判断は人間が確認してください。
 
-4. 迷った時のページ
+5. 迷った時のページ
    https://uzikin7-lang.github.io/ai-tool-checklist-sample/start-here.html
 
 6. 記入例
