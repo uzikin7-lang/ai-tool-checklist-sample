@@ -1,0 +1,25 @@
+name: Pro版 希望
+description: 有料版候補への希望を送る
+title: "[Pro希望] "
+labels: ["pro-interest"]
+body:
+  - type: input
+    id: plan
+    attributes:
+      label: 欲しいPro候補
+      placeholder: 例: 小規模事業者 Pro
+  - type: textarea
+    id: reason
+    attributes:
+      label: 欲しい理由
+      placeholder: 例: 業種別の入力例が多ければすぐ使える
+  - type: input
+    id: price
+    attributes:
+      label: 価格感
+      placeholder: 例: 980円なら買う / 無料なら使う / 会社なら買える
+  - type: textarea
+    id: missing
+    attributes:
+      label: 有料版に必要な追加内容
+      placeholder: 例: Googleスプレッドシート版、入力例、動画解説
