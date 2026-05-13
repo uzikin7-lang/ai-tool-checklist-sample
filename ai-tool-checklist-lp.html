@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AIツール選定チェックリスト</title>
+  <meta name="description" content="小規模事業者・副業ワーカー向けに、AIツールを用途、費用、運用しやすさで比較するための実務テンプレート。">
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #1f2933;
+      --muted: #667085;
+      --line: #d0d7de;
+      --brand: #0f766e;
+      --soft: #eef7f5;
+      --paper: #fffef9;
+      --accent: #f59e0b;
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: system-ui, sans-serif; color: var(--ink); background: var(--paper); line-height: 1.75; }
+    header { background: var(--soft); border-bottom: 1px solid var(--line); }
+    .wrap { width: min(1040px, calc(100% - 32px)); margin: 0 auto; }
+    .hero { min-height: 78vh; display: grid; align-content: center; padding: 56px 0 40px; }
+    .kicker { color: var(--brand); font-weight: 700; margin: 0 0 10px; }
+    h1 { font-size: clamp(34px, 6vw, 72px); line-height: 1.05; margin: 0; letter-spacing: 0; max-width: 900px; }
+    .lead { font-size: 18px; max-width: 760px; margin: 22px 0; color: #344054; }
+    .actions { display: flex; gap: 12px; flex-wrap: wrap; align-items: center; }
+    .button { display: inline-block; padding: 12px 18px; border-radius: 7px; text-decoration: none; font-weight: 700; border: 1px solid var(--brand); }
+    .button.primary { background: var(--brand); color: white; }
+    .button.secondary { color: var(--brand); background: white; }
+    section { padding: 48px 0; border-bottom: 1px solid var(--line); }
+    h2 { font-size: 26px; line-height: 1.25; margin: 0 0 18px; }
+    .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+    .card { background: white; border: 1px solid var(--line); border-radius: 8px; padding: 18px; }
+    .card h3 { margin: 0 0 8px; font-size: 18px; }
+    .price { font-size: 28px; font-weight: 800; color: var(--brand); }
+    .note { color: var(--muted); font-size: 14px; }
+    ul { padding-left: 20px; }
+    .sample { background: #ffffff; border: 1px solid var(--line); border-radius: 8px; overflow: hidden; }
+    table { width: 100%; border-collapse: collapse; font-size: 14px; }
+    th, td { border: 1px solid var(--line); padding: 10px; text-align: left; vertical-align: top; }
+    th { background: var(--brand); color: white; }
+    footer { padding: 24px 0; color: var(--muted); font-size: 13px; }
+    @media (max-width: 760px) {
+      .hero { min-height: auto; padding-top: 40px; }
+      .grid { grid-template-columns: 1fr; }
+      .actions { display: grid; }
+      .button { text-align: center; }
+      table { font-size: 13px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap hero">
+      <p class="kicker">AI導入の最初の1枚</p>
+      <h1>AIツールを、雰囲気ではなく仕事で選ぶ。</h1>
+      <p class="lead">ChatGPT、Gemini、Claude、Jasper、Zapierなどを、用途・月額コスト・日本語品質・運用しやすさで比較できるスプレッドシートテンプレートです。</p>
+      <div class="actions">
+        <a class="button primary" href="products/AI_Tool_Selection_Checklist_v0.1.xlsx">無料サンプルを開く</a>
+        <a class="button secondary" href="#contents">内容を見る</a>
+      </div>
+      <p class="note">販売開始前の承認用ページです。価格、決済、配布方法は未確定です。</p>
+    </div>
+  </header>
+  <main>
+    <section id="contents">
+      <div class="wrap">
+        <h2>入っているもの</h2>
+        <div class="grid">
+          <div class="card"><h3>Tool Matrix</h3><p>候補ツールを月額費用、用途、日本語品質、データリスクで比較できます。</p></div>
+          <div class="card"><h3>Use Case Scores</h3><p>SNS、問い合わせ、商品説明、SEO、請求チェックなど用途別に採点できます。</p></div>
+          <div class="card"><h3>Prompt Pack</h3><p>導入検討、商品説明、問い合わせ返信、SNS投稿、記事構成に使えるプロンプトを収録。</p></div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="wrap">
+        <h2>想定価格</h2>
+        <p class="price">980円</p>
+        <p>まずは無料サンプルで反応を見て、承認後にBOOTH、note、Gumroadなどで有料版を出す想定です。</p>
+      </div>
+    </section>
+    <section>
+      <div class="wrap">
+        <h2>サンプル</h2>
+        <div class="sample">
+          <table>
+            <thead><tr><th>Tool</th><th>Primary Job</th><th>Monthly Cost</th><th>Decision</th></tr></thead>
+            <tbody>
+              <tr><td>ChatGPT</td><td>Research, writing, ideation</td><td>約3,000円</td><td>Test</td></tr>
+              <tr><td>Zapier</td><td>Workflow automation</td><td>約3,000円</td><td>Test</td></tr>
+              <tr><td>Surfer SEO</td><td>SEO content optimization</td><td>要確認</td><td>Hold/検証</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="wrap">
+        <h2>注意</h2>
+        <ul>
+          <li>AIツールの価格、機能、規約は変わるため、導入前に公式サイトで確認してください。</li>
+          <li>このテンプレートは収益保証ではありません。</li>
+          <li>アフィリエイトリンクを掲載する場合は、広告表記を追加します。</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+  <footer><div class="wrap">AI Revenue Agent approval draft / 2026-05-13</div></footer>
+</body>
+</html>
