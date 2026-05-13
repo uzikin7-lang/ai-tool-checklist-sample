@@ -4,7 +4,7 @@
 
 ## 何に役立つか
 
-- AIで商品説明、SNS投稿、問い合わせ返信、求人票、Googleビジネス投稿、動画タイトル、月次報告、LINE公式返信を作る前に、事実・制約・リスク・確認点を分けられます。
+- AIで商品説明、SNS投稿、問い合わせ返信、求人票、Googleビジネス投稿、動画タイトル、月次報告、LINE公式返信、請求・入金確認を作る前に、事実・制約・リスク・確認点を分けられます。
 - AIツールの一覧ではなく、AIを業務で使う時の「抜け漏れ防止」と「人間が承認すべき判断の分離」に焦点を当てています。
 - 価格、効果保証、法務、医療、個人情報、公開可否などは人間が確認する前提です。
 
@@ -31,6 +31,7 @@
 - YouTube/配信タイトル構成AIキット: 視聴者の悩み、タイトル案、冒頭15秒、サムネ文言、公開後テストを整理し、釣りすぎない企画改善ができます。 (https://uzikin7-lang.github.io/ai-tool-checklist-sample/creator-title-ai-kit.html)
 - 月次報告AIキット: 売上、作業時間、問い合わせ、出来事、来月の打ち手を分けて入力し、AIに月次報告の下書きを安全に作らせられます。 (https://uzikin7-lang.github.io/ai-tool-checklist-sample/monthly-report-ai-kit.html)
 - LINE公式返信AIキット: 問い合わせ内容、予約条件、FAQ、返信文、送信前チェック、履歴ログを分けて、AIで返信を下書きする前の抜け漏れを減らせます。 (https://uzikin7-lang.github.io/ai-tool-checklist-sample/line-reply-ai-kit.html)
+- 請求・入金確認AIキット: 請求番号、金額、期日、送付状況、相手との関係を分けて、AIで入金確認文を下書きする前の誤送信を減らせます。 (https://uzikin7-lang.github.io/ai-tool-checklist-sample/invoice-followup-ai-kit.html)
 
 ## 推奨される紹介の仕方
 

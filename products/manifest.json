@@ -87,6 +87,14 @@
       "file": "https://uzikin7-lang.github.io/ai-tool-checklist-sample/products/LINE_Official_Reply_AI_Kit_v0.1.xlsx",
       "audience": "LINE公式アカウントやチャット問い合わせの一次返信を整えたい小規模店舗、教室、サロン、個人事業者",
       "promise": "問い合わせ内容、予約条件、FAQ、返信文、送信前チェック、履歴ログを分けて、AIで返信を下書きする前の抜け漏れを減らせます。"
+    },
+    {
+      "id": "invoice-followup",
+      "title": "請求・入金確認AIキット",
+      "page": "https://uzikin7-lang.github.io/ai-tool-checklist-sample/invoice-followup-ai-kit.html",
+      "file": "https://uzikin7-lang.github.io/ai-tool-checklist-sample/products/Invoice_Payment_Followup_AI_Kit_v0.1.xlsx",
+      "audience": "請求書送付、入金確認、やわらかい支払リマインドを整えたい個人事業、制作受託、小規模B2B",
+      "promise": "請求番号、金額、期日、送付状況、相手との関係を分けて、AIで入金確認文を下書きする前の誤送信を減らせます。"
     }
   ]
 }
