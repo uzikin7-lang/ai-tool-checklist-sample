@@ -49,5 +49,8 @@ AI業務キット集 / 最初に読むメモ
 10. 更新履歴
    https://uzikin7-lang.github.io/ai-tool-checklist-sample/updates.html
 
-11. 改善リクエスト
+11. 配布ファイル一覧
+   https://uzikin7-lang.github.io/ai-tool-checklist-sample/products/inventory.json
+
+12. 改善リクエスト
    https://github.com/uzikin7-lang/ai-tool-checklist-sample/issues/new?template=feedback.yml

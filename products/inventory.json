@@ -1,0 +1,86 @@
+{
+  "name": "AI業務キット集 配布ファイル一覧",
+  "generated_at": "2026-05-14",
+  "public_page": "https://uzikin7-lang.github.io/ai-tool-checklist-sample/",
+  "file_count": 13,
+  "files": [
+    {
+      "file": "README_FIRST.txt",
+      "url": "https://uzikin7-lang.github.io/ai-tool-checklist-sample/products/README_FIRST.txt",
+      "bytes": 2430,
+      "sha256": "a5f08578ac0784cced9fe367c5c958be6675c5c41a8bc3f2fe0abc7f3df7ec8e"
+    },
+    {
+      "file": "AI_Workflow_Kits_Free_Bundle_v0.1.zip",
+      "url": "https://uzikin7-lang.github.io/ai-tool-checklist-sample/products/AI_Workflow_Kits_Free_Bundle_v0.1.zip",
+      "bytes": 135014,
+      "sha256": "f31f1f5db0df3237c8615062b3cb17e9922797b90fccca37866d90e6ae94c72b"
+    },
+    {
+      "file": "AI_Tool_Selection_Checklist_v0.1.xlsx",
+      "url": "https://uzikin7-lang.github.io/ai-tool-checklist-sample/products/AI_Tool_Selection_Checklist_v0.1.xlsx",
+      "bytes": 20322,
+      "sha256": "3865a1b2c4ca83564cc201e8adbe9735c7da2251509bfed2cb43366f389ca380"
+    },
+    {
+      "file": "EC_FleaMarket_AI_Listing_Kit_v0.1.xlsx",
+      "url": "https://uzikin7-lang.github.io/ai-tool-checklist-sample/products/EC_FleaMarket_AI_Listing_Kit_v0.1.xlsx",
+      "bytes": 11878,
+      "sha256": "c6116bb92a2ba54d8903f6b2691f0dcc965c051fd7b5d8901ba30a72c4322874"
+    },
+    {
+      "file": "Salon_SNS_Booking_AI_Kit_v0.1.xlsx",
+      "url": "https://uzikin7-lang.github.io/ai-tool-checklist-sample/products/Salon_SNS_Booking_AI_Kit_v0.1.xlsx",
+      "bytes": 13738,
+      "sha256": "346e869928b3e66f6466702dc94ef0cfef047d987b43e5702e5fececaa2401d1"
+    },
+    {
+      "file": "Professional_Services_Inquiry_AI_Kit_v0.1.xlsx",
+      "url": "https://uzikin7-lang.github.io/ai-tool-checklist-sample/products/Professional_Services_Inquiry_AI_Kit_v0.1.xlsx",
+      "bytes": 14642,
+      "sha256": "57394292edff3cb2883ab13e0afc4452d6c16902f65c5b101cf5a99488972229"
+    },
+    {
+      "file": "Hiring_Job_Posting_AI_Kit_v0.1.xlsx",
+      "url": "https://uzikin7-lang.github.io/ai-tool-checklist-sample/products/Hiring_Job_Posting_AI_Kit_v0.1.xlsx",
+      "bytes": 16470,
+      "sha256": "4f6771dc2a42b755af321f3c18e10e75722c5f09b5833c030b62d25b2afc2fe0"
+    },
+    {
+      "file": "Local_Store_GBP_AI_Kit_v0.1.xlsx",
+      "url": "https://uzikin7-lang.github.io/ai-tool-checklist-sample/products/Local_Store_GBP_AI_Kit_v0.1.xlsx",
+      "bytes": 15652,
+      "sha256": "1f88aa73c122bdebc8ec169ed70b7d7c13b81a6b9501b83330b70d3d2ecf1c2f"
+    },
+    {
+      "file": "Creator_Title_Hook_AI_Kit_v0.1.xlsx",
+      "url": "https://uzikin7-lang.github.io/ai-tool-checklist-sample/products/Creator_Title_Hook_AI_Kit_v0.1.xlsx",
+      "bytes": 12978,
+      "sha256": "41f59a98f33ad81d1e11dd821e327d2966f2e6667dd2491f2b34ebaf2df15f3c"
+    },
+    {
+      "file": "Monthly_Report_AI_Kit_v0.1.xlsx",
+      "url": "https://uzikin7-lang.github.io/ai-tool-checklist-sample/products/Monthly_Report_AI_Kit_v0.1.xlsx",
+      "bytes": 11992,
+      "sha256": "20a01343962b979d43da160b8af08e6e2d9d64aaff7c987ab196de5743954047"
+    },
+    {
+      "file": "LINE_Official_Reply_AI_Kit_v0.1.xlsx",
+      "url": "https://uzikin7-lang.github.io/ai-tool-checklist-sample/products/LINE_Official_Reply_AI_Kit_v0.1.xlsx",
+      "bytes": 13417,
+      "sha256": "7bfd5567c47fc4e6fe4520e11c495808bafbe81fda06834a76ba46e230f9a6a8"
+    },
+    {
+      "file": "Invoice_Payment_Followup_AI_Kit_v0.1.xlsx",
+      "url": "https://uzikin7-lang.github.io/ai-tool-checklist-sample/products/Invoice_Payment_Followup_AI_Kit_v0.1.xlsx",
+      "bytes": 13141,
+      "sha256": "b171092dc31f15dc7a8f0705b2098ff76b6ada109a0c0b176b07c39cf99a95ee"
+    },
+    {
+      "file": "manifest.json",
+      "url": "https://uzikin7-lang.github.io/ai-tool-checklist-sample/products/manifest.json",
+      "bytes": 7202,
+      "sha256": "49e8420268f7f8b3554104666393ef302a978e25e2857fd21c8c2b55b3fb214d"
+    }
+  ]
+}
