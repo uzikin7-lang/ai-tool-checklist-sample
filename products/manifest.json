@@ -79,6 +79,14 @@
       "file": "https://uzikin7-lang.github.io/ai-tool-checklist-sample/products/Monthly_Report_AI_Kit_v0.1.xlsx",
       "audience": "個人事業、副業、小規模チームで月末の振り返りや報告を短時間でまとめたい人",
       "promise": "売上、作業時間、問い合わせ、出来事、来月の打ち手を分けて入力し、AIに月次報告の下書きを安全に作らせられます。"
+    },
+    {
+      "id": "line-reply",
+      "title": "LINE公式返信AIキット",
+      "page": "https://uzikin7-lang.github.io/ai-tool-checklist-sample/line-reply-ai-kit.html",
+      "file": "https://uzikin7-lang.github.io/ai-tool-checklist-sample/products/LINE_Official_Reply_AI_Kit_v0.1.xlsx",
+      "audience": "LINE公式アカウントやチャット問い合わせの一次返信を整えたい小規模店舗、教室、サロン、個人事業者",
+      "promise": "問い合わせ内容、予約条件、FAQ、返信文、送信前チェック、履歴ログを分けて、AIで返信を下書きする前の抜け漏れを減らせます。"
     }
   ]
 }
