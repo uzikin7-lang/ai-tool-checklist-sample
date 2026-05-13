@@ -1,0 +1,25 @@
+name: 次のキット希望
+description: 次に作ってほしい無料キット候補を送る
+title: "[次のキット希望] "
+labels: ["kit-request"]
+body:
+  - type: input
+    id: candidate
+    attributes:
+      label: 欲しいキット
+      placeholder: 例: 飲食店 メニュー改善AIキット
+  - type: textarea
+    id: job
+    attributes:
+      label: 減らしたい作業
+      placeholder: 例: 季節メニューの説明文とSNS投稿を毎回考えるのが重い
+  - type: textarea
+    id: risk
+    attributes:
+      label: 間違えると困ること
+      placeholder: 例: 価格、アレルギー、提供時間、在庫を間違えると困る
+  - type: textarea
+    id: example
+    attributes:
+      label: あると嬉しい入力例
+      placeholder: 例: ランチメニュー、テイクアウト、期間限定メニュー
