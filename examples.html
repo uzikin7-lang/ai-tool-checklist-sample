@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AI業務キット集 記入例</title>
+  <meta name="description" content="AI業務キットを使うと何が整理されるかを示す記入例ページ。">
+  <link rel="canonical" href="https://uzikin7-lang.github.io/ai-tool-checklist-sample/examples.html">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="AI業務キット集 記入例">
+  <meta property="og:description" content="AI業務キットを使うと何が整理されるかを示す記入例ページ。">
+  <meta property="og:url" content="https://uzikin7-lang.github.io/ai-tool-checklist-sample/examples.html">
+  <meta property="og:image" content="https://uzikin7-lang.github.io/ai-tool-checklist-sample/assets/AI_Tool_Selection_Checklist_v0.1.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <style>
+    :root { --ink:#172026; --muted:#5f6b76; --line:#d8dee4; --brand:#0f766e; --accent:#b45309; --soft:#eef7f5; --paper:#fffdfa; --panel:#ffffff; }
+    * { box-sizing:border-box; }
+    body { margin:0; font-family:system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; color:var(--ink); background:var(--paper); line-height:1.75; }
+    a { color:var(--brand); font-weight:700; }
+    .wrap { width:min(1120px, calc(100% - 32px)); margin:0 auto; }
+    header { border-bottom:1px solid var(--line); background:linear-gradient(180deg, var(--soft), #fff); }
+    .hero { display:grid; grid-template-columns:1.05fr .95fr; gap:32px; align-items:center; min-height:74vh; padding:56px 0 34px; }
+    .kicker { color:var(--brand); font-weight:800; margin:0 0 10px; }
+    h1 { font-size:clamp(34px, 6vw, 68px); line-height:1.06; margin:0; letter-spacing:0; max-width:900px; }
+    h2 { font-size:26px; line-height:1.25; margin:0 0 18px; }
+    h3 { font-size:18px; margin:0 0 8px; }
+    .lead { font-size:18px; max-width:780px; color:#344054; margin:22px 0; }
+    .actions { display:flex; gap:12px; flex-wrap:wrap; margin-top:18px; }
+    .button { display:inline-block; padding:12px 18px; border-radius:7px; text-decoration:none; font-weight:800; border:1px solid var(--brand); }
+    .primary { background:var(--brand); color:#fff; }
+    .secondary { color:var(--brand); background:#fff; }
+    .ghost { border-color:var(--line); color:var(--ink); background:#fff; }
+    .preview { border:1px solid var(--line); background:#fff; border-radius:8px; overflow:hidden; box-shadow:0 10px 30px rgba(15, 23, 42, .08); }
+    .preview img { width:100%; display:block; }
+    section { padding:46px 0; border-bottom:1px solid var(--line); }
+    .grid { display:grid; grid-template-columns:repeat(3, 1fr); gap:16px; }
+    .two { display:grid; grid-template-columns:1fr 1fr; gap:20px; }
+    .card { background:var(--panel); border:1px solid var(--line); border-radius:8px; padding:18px; }
+    .card img { width:100%; border:1px solid var(--line); border-radius:6px; margin:10px 0 12px; }
+    .note { color:var(--muted); font-size:14px; }
+    table { width:100%; border-collapse:collapse; font-size:14px; background:#fff; }
+    th,td { border:1px solid var(--line); padding:10px; text-align:left; vertical-align:top; }
+    th { background:var(--brand); color:#fff; }
+    ul { padding-left:1.2rem; }
+    footer { padding:24px 0; color:var(--muted); font-size:13px; }
+    @media (max-width:820px) { .hero,.two{grid-template-columns:1fr}.hero{min-height:auto;padding-top:38px}.grid{grid-template-columns:1fr}.actions{display:grid}.button{text-align:center} }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="wrap hero">
+      <div>
+        <p class="kicker">記入例</p>
+        <h1>入力すると、何が変わるのかを先に見る。</h1>
+        <p class="lead">Excelを開く前に、よくある雑な入力がどう整理されるかを確認できます。売り込みではなく、使い方の見本です。</p>
+        <div class="actions">
+          <a class="button primary" href="products/AI_Workflow_Kits_Free_Bundle_v0.1.zip">8キットをまとめてダウンロード</a>
+          <a class="button secondary" href="selector.html">30秒診断する</a>
+          <a class="button ghost" href="https://github.com/uzikin7-lang/ai-tool-checklist-sample/issues/new?template=feedback.yml&title=%5B%E5%8F%8D%E5%BF%9C%5D+examples-page&kit-id=examples-page">欲しい記入例を送る</a>
+        </div>
+      </div>
+      <div class="preview"><img src="assets/EC_FleaMarket_AI_Listing_Kit_v0.1.png" alt="EC/フリマ 商品説明AIキットのExcelプレビュー"></div>
+    </div>
+  </header>
+  <main>
+    <section>
+      <div class="wrap">
+        <h2>記入例</h2>
+        <div class="grid">
+          <div class="card">
+            <h3>EC/フリマ: 商品説明を直す</h3>
+            <p><strong>元の状態</strong><br>ワイヤレスイヤホンです。音いいです。早い者勝ち。</p>
+            <p><strong>入力すること</strong><br>型番、状態、付属品、購入前の不安、発送条件を商品情報入力に分けて書く。</p>
+            <p><strong>変わること</strong><br>状態、付属品、発送条件を明記し、確認が必要な性能表現は避けた説明文にする。</p>
+            <p><a class="button primary" href="ec-listing-ai-kit.html">このキットを見る</a></p>
+          </div>
+<div class="card">
+            <h3>サロン: SNS投稿から予約につなげる</h3>
+            <p><strong>元の状態</strong><br>小顔効果抜群。すぐ変わります。</p>
+            <p><strong>入力すること</strong><br>メニュー、所要時間、価格、約束できること、約束できないこと、写真利用許可を整理する。</p>
+            <p><strong>変わること</strong><br>効果保証を避け、来店前の不安と予約前に確認すべき点を入れた投稿にする。</p>
+            <p><a class="button primary" href="salon-ai-kit.html">このキットを見る</a></p>
+          </div>
+<div class="card">
+            <h3>採用: 求人票の曖昧さを減らす</h3>
+            <p><strong>元の状態</strong><br>やる気のある若い方歓迎。アットホームな職場です。</p>
+            <p><strong>入力すること</strong><br>仕事内容、必須条件、歓迎条件、選考フロー、避けたい表現を分けて入力する。</p>
+            <p><strong>変わること</strong><br>年齢や雰囲気に頼らず、仕事内容と期待成果が伝わる求人票にする。</p>
+            <p><a class="button primary" href="hiring-ai-kit.html">このキットを見る</a></p>
+          </div>
+<div class="card">
+            <h3>月次報告: 事実と感想を分ける</h3>
+            <p><strong>元の状態</strong><br>今月は忙しかった。来月はもっと頑張る。</p>
+            <p><strong>入力すること</strong><br>売上、問い合わせ、作業時間、出来事、学び、来月の制約を入力する。</p>
+            <p><strong>変わること</strong><br>数字、出来事、学び、来月の打ち手を分けた報告文にする。</p>
+            <p><a class="button primary" href="monthly-report-ai-kit.html">このキットを見る</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="wrap two">
+        <div>
+          <h2>ポイント</h2>
+          <p>AIの出力品質は、入力の粒度で大きく変わります。このキットは「AIに考えさせる」より先に、「AIが安全に下書きできる材料へ分ける」ための道具です。</p>
+        </div>
+        <div class="card">
+          <h3>迷ったら</h3>
+          <p>まず30秒診断で1つ選び、記入例に近い形で入力してください。全部を埋める必要はありません。</p>
+        </div>
+      </div>
+    </section>
+  </main>
+<footer><div class="wrap">AI業務キット集 / 2026-05-13 / 投資助言・収益保証ではありません。</div></footer>
+</body>
+</html>
