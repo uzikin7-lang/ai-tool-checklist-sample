@@ -1,0 +1,29 @@
+name: キット利用フィードバック
+description: 無料AI業務キットを使った反応を送る
+title: "[反応] "
+labels: ["feedback"]
+body:
+  - type: input
+    id: kit
+    attributes:
+      label: 使ったキット
+      placeholder: 例: EC/フリマ 商品説明AIキット
+  - type: dropdown
+    id: outcome
+    attributes:
+      label: どうでしたか
+      options:
+        - すぐ使えた
+        - 一部わかりにくい
+        - 欲しい内容と違った
+        - まだ使っていない
+  - type: textarea
+    id: stuck
+    attributes:
+      label: 詰まった場所・わかりにくかった場所
+      placeholder: 例: どのシートから入力するか迷った
+  - type: textarea
+    id: wanted
+    attributes:
+      label: 次に欲しい業種・用途
+      placeholder: 例: 不動産内見返信、飲食店メニュー改善、YouTube台本作成

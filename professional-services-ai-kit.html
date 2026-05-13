@@ -3,82 +3,75 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>士業/コンサル 問い合わせ整理AI化キット</title>
-  <meta name="description" content="弁護士、税理士、社労士、行政書士、コンサル向けに、専門判断をAIに任せず問い合わせ整理と初回相談準備を進めるExcelテンプレート。">
+  <title>士業/コンサル 問い合わせ整理AIキット</title>
+  <meta name="description" content="専門判断をAIに任せず、相談内容の整理、振り分け、面談準備、返信下書きを安全に進められます。">
   <style>
-    :root { --ink:#1f2933; --muted:#667085; --line:#d0d7de; --brand:#0f766e; --soft:#eef7f5; --paper:#fffef9; }
+    :root { --ink:#172026; --muted:#5f6b76; --line:#d8dee4; --brand:#0f766e; --accent:#b45309; --soft:#eef7f5; --paper:#fffdfa; --panel:#ffffff; }
     * { box-sizing:border-box; }
-    body { margin:0; font-family:system-ui,sans-serif; color:var(--ink); background:var(--paper); line-height:1.75; }
-    .wrap { width:min(1040px, calc(100% - 32px)); margin:0 auto; }
-    header { background:var(--soft); border-bottom:1px solid var(--line); }
-    .hero { min-height:76vh; display:grid; align-content:center; padding:54px 0 40px; }
+    body { margin:0; font-family:system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; color:var(--ink); background:var(--paper); line-height:1.75; }
+    a { color:var(--brand); font-weight:700; }
+    .wrap { width:min(1120px, calc(100% - 32px)); margin:0 auto; }
+    header { border-bottom:1px solid var(--line); background:linear-gradient(180deg, var(--soft), #fff); }
+    .hero { display:grid; grid-template-columns:1.05fr .95fr; gap:32px; align-items:center; min-height:74vh; padding:56px 0 34px; }
     .kicker { color:var(--brand); font-weight:800; margin:0 0 10px; }
-    h1 { font-size:clamp(34px, 6vw, 68px); line-height:1.05; margin:0; letter-spacing:0; max-width:920px; }
-    .lead { font-size:18px; max-width:800px; color:#344054; margin:22px 0; }
-    .actions { display:flex; gap:12px; flex-wrap:wrap; }
-    .button { display:inline-block; padding:12px 18px; border-radius:7px; text-decoration:none; font-weight:800; border:1px solid var(--brand); }
-    .primary { background:var(--brand); color:white; }
-    .secondary { background:white; color:var(--brand); }
-    section { padding:48px 0; border-bottom:1px solid var(--line); }
+    h1 { font-size:clamp(34px, 6vw, 68px); line-height:1.06; margin:0; letter-spacing:0; max-width:900px; }
     h2 { font-size:26px; line-height:1.25; margin:0 0 18px; }
+    h3 { font-size:18px; margin:0 0 8px; }
+    .lead { font-size:18px; max-width:780px; color:#344054; margin:22px 0; }
+    .actions { display:flex; gap:12px; flex-wrap:wrap; margin-top:18px; }
+    .button { display:inline-block; padding:12px 18px; border-radius:7px; text-decoration:none; font-weight:800; border:1px solid var(--brand); }
+    .primary { background:var(--brand); color:#fff; }
+    .secondary { color:var(--brand); background:#fff; }
+    .ghost { border-color:var(--line); color:var(--ink); background:#fff; }
+    .preview { border:1px solid var(--line); background:#fff; border-radius:8px; overflow:hidden; box-shadow:0 10px 30px rgba(15, 23, 42, .08); }
+    .preview img { width:100%; display:block; }
+    section { padding:46px 0; border-bottom:1px solid var(--line); }
     .grid { display:grid; grid-template-columns:repeat(3, 1fr); gap:16px; }
-    .card { background:white; border:1px solid var(--line); border-radius:8px; padding:18px; }
-    .card h3 { margin:0 0 8px; font-size:18px; }
-    table { width:100%; border-collapse:collapse; font-size:14px; background:white; }
-    th,td { border:1px solid var(--line); padding:10px; text-align:left; vertical-align:top; }
-    th { background:var(--brand); color:white; }
+    .two { display:grid; grid-template-columns:1fr 1fr; gap:20px; }
+    .card { background:var(--panel); border:1px solid var(--line); border-radius:8px; padding:18px; }
+    .card img { width:100%; border:1px solid var(--line); border-radius:6px; margin:10px 0 12px; }
     .note { color:var(--muted); font-size:14px; }
+    table { width:100%; border-collapse:collapse; font-size:14px; background:#fff; }
+    th,td { border:1px solid var(--line); padding:10px; text-align:left; vertical-align:top; }
+    th { background:var(--brand); color:#fff; }
+    ul { padding-left:1.2rem; }
     footer { padding:24px 0; color:var(--muted); font-size:13px; }
-    @media (max-width:760px) { .hero{min-height:auto;padding-top:38px}.grid{grid-template-columns:1fr}.actions{display:grid}.button{text-align:center} }
+    @media (max-width:820px) { .hero,.two{grid-template-columns:1fr}.hero{min-height:auto;padding-top:38px}.grid{grid-template-columns:1fr}.actions{display:grid}.button{text-align:center} }
   </style>
 </head>
 <body>
+
   <header>
     <div class="wrap hero">
-      <p class="kicker">弁護士・税理士・社労士・行政書士・コンサル向け</p>
-      <h1>AIに判断させず、相談前の情報整理だけ速くする。</h1>
-      <p class="lead">問い合わせ対応で時間を取られるのは、専門判断そのものよりも、背景、期限、資料、不足情報、返信案の整理です。このキットはAIを「下書き係」に限定し、人間が判断すべき境界を残したまま初回相談準備を進めます。</p>
-      <div class="actions">
-        <a class="button primary" href="products/Professional_Services_Inquiry_AI_Kit_v0.1.xlsx">キットを開く</a>
-        <a class="button secondary" href="./">汎用診断キットを見る</a>
+      <div>
+        <p class="kicker">Excelテンプレート</p>
+        <h1>士業/コンサル 問い合わせ整理AIキット</h1>
+        <p class="lead">専門判断をAIに任せず、相談内容の整理、振り分け、面談準備、返信下書きを安全に進められます。</p>
+        <div class="actions">
+          <a class="button primary" href="products/Professional_Services_Inquiry_AI_Kit_v0.1.xlsx">Excelをダウンロード</a>
+          <a class="button secondary" href="products/AI_Workflow_Kits_Free_Bundle_v0.1.zip">6キットまとめて取得</a>
+          <a class="button ghost" href="https://github.com/uzikin7-lang/ai-tool-checklist-sample/issues/new?template=feedback.yml&title=%5B%E5%8F%8D%E5%BF%9C%5D+professional-services&kit-id=professional-services">反応を送る</a>
+        </div>
       </div>
-      <p class="note">専門判断、受任可否、見積、契約条件は人間確認前提です。</p>
+      <div class="preview"><img src="assets/Professional_Services_Inquiry_AI_Kit_v0.1.png" alt="士業/コンサル 問い合わせ整理AIキットのExcelプレビュー"></div>
     </div>
   </header>
   <main>
-    <section>
-      <div class="wrap">
-        <h2>何に役立つか</h2>
-        <div class="grid">
-          <div class="card"><h3>問い合わせを論点に分ける</h3><p>背景、期限、関係者、資料、希望結果、不足情報を整理できます。</p></div>
-          <div class="card"><h3>返信案を安全に作る</h3><p>受付、追加情報依頼、初回相談案内、辞退、資料確認後見積などの型を作れます。</p></div>
-          <div class="card"><h3>AIの境界を固定する</h3><p>法的結論、税額、労務判断、受任可否、見積金額をAIに断定させないチェック表付き。</p></div>
-        </div>
-      </div>
-    </section>
-    <section>
-      <div class="wrap">
-        <h2>入っているもの</h2>
-        <table>
-          <thead><tr><th>シート</th><th>用途</th></tr></thead>
-          <tbody>
-            <tr><td>Inquiry Intake</td><td>相談カテゴリ、背景、期限、関係者、資料、緊急度を整理</td></tr>
-            <tr><td>Triage Rules</td><td>受ける、確認する、断る、紹介する候補を分類</td></tr>
-            <tr><td>Consult Prep</td><td>初回相談前に聞くべき質問と資料を準備</td></tr>
-            <tr><td>Reply Builder</td><td>受付返信、追加情報依頼、初回相談案内などの返信型</td></tr>
-            <tr><td>AI Boundary Check</td><td>AIに任せてはいけない判断と安全な言い換え</td></tr>
-            <tr><td>Prompt Pack</td><td>問い合わせ要約、追加質問、返信案、境界チェック用プロンプト</td></tr>
-          </tbody>
-        </table>
-      </div>
-    </section>
-    <section>
-      <div class="wrap">
-        <h2>AIにそのまま頼むより強いところ</h2>
-        <p>AIは返信文をそれらしく作れます。でも、専門判断、受任可否、利益相反、見積、契約条件を自動で決めるのは危険です。このキットは、AIが触ってよい下書き領域と、人間が責任を持つ判断領域を分けるための道具です。</p>
-      </div>
-    </section>
+    <section><div class="wrap two">
+      <div><h2>対象</h2><p>行政書士、社労士、税理士、コンサルなど、問い合わせ対応を整理したい専門サービス</p></div>
+      <div><h2>よくある詰まり</h2><p>AI返信は速い一方で、専門判断、契約、見積もり、断定表現を誤ると信用リスクが大きい。</p></div>
+    </div></section>
+    <section><div class="wrap">
+      <h2>使い方</h2>
+      <div class="grid"><div class="card"><h3>相談内容入力</h3><p>相談内容入力で事実と未確認事項を分ける</p></div>
+<div class="card"><h3>振り分けルール</h3><p>振り分けルールで人が見るべき相談を残す</p></div>
+<div class="card"><h3>返信作成</h3><p>返信作成で一次返信の下書きを作る</p></div></div>
+    </div></section>
+    <section><div class="wrap two">
+      <div><h2>安全ライン</h2><p>AIは下書きと整理に使い、送信、公開、契約、価格、効果保証、個人情報に関わる判断は人間が確認します。</p></div>
+      <div class="card"><h3>改善リクエスト</h3><p>使いにくい箇所や欲しい業種があれば、公開Issueで送れます。</p><p><a class="button primary" href="https://github.com/uzikin7-lang/ai-tool-checklist-sample/issues/new?template=feedback.yml&title=%5B%E5%8F%8D%E5%BF%9C%5D+professional-services&kit-id=professional-services">このキットの反応を送る</a></p></div>
+    </div></section>
   </main>
-  <footer><div class="wrap">士業/コンサル 問い合わせ整理AI化キット / 2026-05-13</div></footer>
+<footer><div class="wrap">AI業務キット集 / 2026-05-13 / 投資助言・収益保証ではありません。</div></footer>
 </body>
 </html>

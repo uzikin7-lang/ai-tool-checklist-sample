@@ -4,55 +4,67 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>AI業務キット集</title>
-  <meta name="description" content="小規模事業者向けに、AIで減らす作業を選び、人間確認を残しながら業務を軽くするExcelテンプレート集。">
+  <meta name="description" content="AIで業務を軽くする前に、人が確認すべき場所を決めるExcelテンプレート集。">
   <style>
-    :root { --ink:#1f2933; --muted:#667085; --line:#d0d7de; --brand:#0f766e; --soft:#eef7f5; --paper:#fffef9; }
+    :root { --ink:#172026; --muted:#5f6b76; --line:#d8dee4; --brand:#0f766e; --accent:#b45309; --soft:#eef7f5; --paper:#fffdfa; --panel:#ffffff; }
     * { box-sizing:border-box; }
-    body { margin:0; font-family:system-ui,sans-serif; color:var(--ink); background:var(--paper); line-height:1.75; }
-    .wrap { width:min(1100px, calc(100% - 32px)); margin:0 auto; }
-    header { background:var(--soft); border-bottom:1px solid var(--line); }
-    .hero { min-height:74vh; display:grid; align-content:center; padding:56px 0 42px; }
+    body { margin:0; font-family:system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; color:var(--ink); background:var(--paper); line-height:1.75; }
+    a { color:var(--brand); font-weight:700; }
+    .wrap { width:min(1120px, calc(100% - 32px)); margin:0 auto; }
+    header { border-bottom:1px solid var(--line); background:linear-gradient(180deg, var(--soft), #fff); }
+    .hero { display:grid; grid-template-columns:1.05fr .95fr; gap:32px; align-items:center; min-height:74vh; padding:56px 0 34px; }
     .kicker { color:var(--brand); font-weight:800; margin:0 0 10px; }
-    h1 { font-size:clamp(34px, 6vw, 72px); line-height:1.05; margin:0; letter-spacing:0; max-width:960px; }
-    .lead { font-size:18px; max-width:820px; color:#344054; margin:22px 0; }
-    .actions { display:flex; gap:12px; flex-wrap:wrap; }
+    h1 { font-size:clamp(34px, 6vw, 68px); line-height:1.06; margin:0; letter-spacing:0; max-width:900px; }
+    h2 { font-size:26px; line-height:1.25; margin:0 0 18px; }
+    h3 { font-size:18px; margin:0 0 8px; }
+    .lead { font-size:18px; max-width:780px; color:#344054; margin:22px 0; }
+    .actions { display:flex; gap:12px; flex-wrap:wrap; margin-top:18px; }
     .button { display:inline-block; padding:12px 18px; border-radius:7px; text-decoration:none; font-weight:800; border:1px solid var(--brand); }
     .primary { background:var(--brand); color:#fff; }
     .secondary { color:var(--brand); background:#fff; }
-    section { padding:48px 0; border-bottom:1px solid var(--line); }
-    h2 { font-size:26px; line-height:1.25; margin:0 0 18px; }
+    .ghost { border-color:var(--line); color:var(--ink); background:#fff; }
+    .preview { border:1px solid var(--line); background:#fff; border-radius:8px; overflow:hidden; box-shadow:0 10px 30px rgba(15, 23, 42, .08); }
+    .preview img { width:100%; display:block; }
+    section { padding:46px 0; border-bottom:1px solid var(--line); }
     .grid { display:grid; grid-template-columns:repeat(3, 1fr); gap:16px; }
-    .card { background:#fff; border:1px solid var(--line); border-radius:8px; padding:18px; }
-    .card h3 { margin:0 0 8px; font-size:18px; }
+    .two { display:grid; grid-template-columns:1fr 1fr; gap:20px; }
+    .card { background:var(--panel); border:1px solid var(--line); border-radius:8px; padding:18px; }
+    .card img { width:100%; border:1px solid var(--line); border-radius:6px; margin:10px 0 12px; }
     .note { color:var(--muted); font-size:14px; }
     table { width:100%; border-collapse:collapse; font-size:14px; background:#fff; }
     th,td { border:1px solid var(--line); padding:10px; text-align:left; vertical-align:top; }
     th { background:var(--brand); color:#fff; }
+    ul { padding-left:1.2rem; }
     footer { padding:24px 0; color:var(--muted); font-size:13px; }
-    @media (max-width:780px) { .hero{min-height:auto;padding-top:40px}.grid{grid-template-columns:1fr}.actions{display:grid}.button{text-align:center} }
+    @media (max-width:820px) { .hero,.two{grid-template-columns:1fr}.hero{min-height:auto;padding-top:38px}.grid{grid-template-columns:1fr}.actions{display:grid}.button{text-align:center} }
   </style>
 </head>
 <body>
+
   <header>
     <div class="wrap hero">
-      <p class="kicker">小規模事業者向け AI業務テンプレート</p>
-      <h1>AIに任せる前に、人間が確認する場所を決める。</h1>
-      <p class="lead">AIツール名を調べるだけでは、業務は軽くなりません。このキット集は、毎週の手作業を棚卸しし、AIで減らせる作業を選び、送信・公開・契約・効果表現などの重要判断を人間側に残すためのExcelテンプレートです。</p>
-      <div class="actions">
-        <a class="button primary" href="products/AI_Workflow_Kits_Free_Bundle_v0.1.zip">6キットまとめてダウンロード</a>
-        <a class="button secondary" href="#kits">キットを選ぶ</a>
+      <div>
+        <p class="kicker">小規模事業者向け AI業務テンプレート集</p>
+        <h1>AIに任せる前に、人が確認すべき場所を決める。</h1>
+        <p class="lead">AIツール名を調べるだけでは、業務は軽くなりません。このキット集は、毎週の手作業を棚卸しし、AIで減らせる作業を選び、送信・公開・契約・効果表現などの重要判断を人間側に残すためのExcelテンプレートです。</p>
+        <div class="actions">
+          <a class="button primary" href="products/AI_Workflow_Kits_Free_Bundle_v0.1.zip">6キットをまとめてダウンロード</a>
+          <a class="button secondary" href="#kits">キットを選ぶ</a>
+          <a class="button ghost" href="https://github.com/uzikin7-lang/ai-tool-checklist-sample/issues/new?template=feedback.yml&title=%5B%E5%8F%8D%E5%BF%9C%5D+bundle&kit-id=bundle">使った反応を送る</a>
+        </div>
+        <p class="note">Excelで開けます。Googleスプレッドシートにアップロードして使うこともできます。</p>
       </div>
-      <p class="note">Excelで開けます。Googleスプレッドシートにアップロードして使うこともできます。</p>
+      <div class="preview"><img src="assets/AI_Tool_Selection_Checklist_v0.1.png" alt="AI導入診断キットのExcelプレビュー"></div>
     </div>
   </header>
   <main>
     <section>
       <div class="wrap">
-        <h2>何のためのキットか</h2>
+        <h2>このキットが解く問題</h2>
         <div class="grid">
-          <div class="card"><h3>作業を1つに絞る</h3><p>「AIを導入したい」では広すぎます。問い合わせ、商品説明、SNS投稿など、最初に減らす作業を選びます。</p></div>
+          <div class="card"><h3>作業を1つに絞る</h3><p>「AIを導入したい」は広すぎます。問い合わせ、商品説明、SNS投稿など、最初に減らす作業を選びます。</p></div>
           <div class="card"><h3>費用対効果を見る</h3><p>削減時間、時給換算、ツール代を比べて、月額課金する価値があるかを判断します。</p></div>
-          <div class="card"><h3>危ない自動化を避ける</h3><p>送信、公開、契約、見積、効果保証など、AIに断定させない境界を残します。</p></div>
+          <div class="card"><h3>危ない自動化を避ける</h3><p>送信、公開、契約、見積もり、効果保証など、AIに判断させない境界を残します。</p></div>
         </div>
       </div>
     </section>
@@ -60,12 +72,42 @@
       <div class="wrap">
         <h2>公開中のキット</h2>
         <div class="grid">
-          <div class="card"><h3>AI導入 90分診断キット</h3><p>業務棚卸し、ROI試算、最初の7日計画で、まず何をAI化するか決める汎用版。</p><p><a href="products/AI_Tool_Selection_Checklist_v0.1.xlsx">Excelを開く</a></p></div>
-          <div class="card"><h3>EC/フリマ 商品説明AI化キット</h3><p>商品の事実、購入前不安、禁止表現、出品後改善を整理する専用版。</p><p><a href="ec-listing-ai-kit.html">詳細を見る</a></p></div>
-          <div class="card"><h3>サロンSNS・予約導線AI化キット</h3><p>メニュー説明、SNS投稿、予約導線、効果表現チェックに特化した専用版。</p><p><a href="salon-ai-kit.html">詳細を見る</a></p></div>
-          <div class="card"><h3>士業/コンサル 問い合わせ整理AI化キット</h3><p>専門判断をAIに任せず、問い合わせ整理、初回相談準備、返信案作成に特化した専用版。</p><p><a href="professional-services-ai-kit.html">詳細を見る</a></p></div>
-          <div class="card"><h3>採用/求人票AI化キット</h3><p>仕事内容、条件、向いている人、リスク表現、候補者返信を整理する専用版。</p><p><a href="hiring-ai-kit.html">詳細を見る</a></p></div>
-          <div class="card"><h3>地域店舗 Googleビジネス投稿AI化キット</h3><p>営業時間、価格、在庫、FAQ、口コミ返信を確認しながら投稿案を作る専用版。</p><p><a href="local-store-ai-kit.html">詳細を見る</a></p></div>
+          <div class="card">
+            <h3>AI導入 90分診断キット</h3>
+            <img src="assets/AI_Tool_Selection_Checklist_v0.1.png" alt="AI導入 90分診断キットのExcelプレビュー">
+            <p>毎週の手作業を棚卸しし、削減時間、月額費用、リスクを並べて、最初に試すAI化候補を1つに絞れます。</p>
+            <p><a href="ai-tool-checklist-lp.html">詳細を見る</a> / <a href="products/AI_Tool_Selection_Checklist_v0.1.xlsx">Excelを開く</a></p>
+          </div>
+<div class="card">
+            <h3>EC/フリマ 商品説明AIキット</h3>
+            <img src="assets/EC_FleaMarket_AI_Listing_Kit_v0.1.png" alt="EC/フリマ 商品説明AIキットのExcelプレビュー">
+            <p>商品説明をAIに丸投げせず、事実確認、購入前不安、禁止表現チェックを通して安全に出品文を改善できます。</p>
+            <p><a href="ec-listing-ai-kit.html">詳細を見る</a> / <a href="products/EC_FleaMarket_AI_Listing_Kit_v0.1.xlsx">Excelを開く</a></p>
+          </div>
+<div class="card">
+            <h3>サロンSNS・予約導線AIキット</h3>
+            <img src="assets/Salon_SNS_Booking_AI_Kit_v0.1.png" alt="サロンSNS・予約導線AIキットのExcelプレビュー">
+            <p>メニュー説明、投稿カレンダー、表現安全チェック、写真利用許可、予約導線をまとめて整えられます。</p>
+            <p><a href="salon-ai-kit.html">詳細を見る</a> / <a href="products/Salon_SNS_Booking_AI_Kit_v0.1.xlsx">Excelを開く</a></p>
+          </div>
+<div class="card">
+            <h3>士業/コンサル 問い合わせ整理AIキット</h3>
+            <img src="assets/Professional_Services_Inquiry_AI_Kit_v0.1.png" alt="士業/コンサル 問い合わせ整理AIキットのExcelプレビュー">
+            <p>専門判断をAIに任せず、相談内容の整理、振り分け、面談準備、返信下書きを安全に進められます。</p>
+            <p><a href="professional-services-ai-kit.html">詳細を見る</a> / <a href="products/Professional_Services_Inquiry_AI_Kit_v0.1.xlsx">Excelを開く</a></p>
+          </div>
+<div class="card">
+            <h3>採用/求人票AIキット</h3>
+            <img src="assets/Hiring_Job_Posting_AI_Kit_v0.1.png" alt="採用/求人票AIキットのExcelプレビュー">
+            <p>仕事内容、条件、向いている人、向いていない人、候補者返信、表現リスクを整理できます。</p>
+            <p><a href="hiring-ai-kit.html">詳細を見る</a> / <a href="products/Hiring_Job_Posting_AI_Kit_v0.1.xlsx">Excelを開く</a></p>
+          </div>
+<div class="card">
+            <h3>地域店舗 Googleビジネス投稿AIキット</h3>
+            <img src="assets/Local_Store_GBP_AI_Kit_v0.1.png" alt="地域店舗 Googleビジネス投稿AIキットのExcelプレビュー">
+            <p>Googleビジネスプロフィール投稿、FAQ、口コミ返信を、営業時間・価格・在庫の正確性を確認しながら作れます。</p>
+            <p><a href="local-store-ai-kit.html">詳細を見る</a> / <a href="products/Local_Store_GBP_AI_Kit_v0.1.xlsx">Excelを開く</a></p>
+          </div>
         </div>
       </div>
     </section>
@@ -75,27 +117,30 @@
         <table>
           <thead><tr><th>状況</th><th>最初に使うキット</th><th>理由</th></tr></thead>
           <tbody>
-            <tr><td>AIを何に使うか決まっていない</td><td>AI導入 90分診断キット</td><td>作業棚卸しとROI試算から始められる</td></tr>
-            <tr><td>メルカリ、BASE、ECの商品説明を改善したい</td><td>EC/フリマ 商品説明AI化キット</td><td>事実確認と購入前不安を分けられる</td></tr>
-            <tr><td>サロンのSNS投稿や予約導線を整えたい</td><td>サロンSNS・予約導線AI化キット</td><td>効果表現と写真許可のチェックが必要</td></tr>
-            <tr><td>問い合わせ返信や初回相談前の整理を軽くしたい</td><td>士業/コンサル 問い合わせ整理AI化キット</td><td>専門判断をAIに任せない境界が必要</td></tr>
-            <tr><td>求人票や候補者返信を整えたい</td><td>採用/求人票AI化キット</td><td>条件の盛りすぎや不適切表現を避ける必要がある</td></tr>
-            <tr><td>Googleビジネス投稿や口コミ返信を続けたい</td><td>地域店舗 Googleビジネス投稿AI化キット</td><td>営業時間、価格、在庫、写真許可の正確性が必要</td></tr>
+            <tr><td>AIツールを買う前に、どの作業からAI化するべきか決めたい小規模事業者・副業ワーカー</td><td>AI導入 90分診断キット</td><td>ツール名だけ調べても、自分の業務で本当に浮く時間と危険な範囲が見えない。</td></tr>
+<tr><td>メルカリ、BASE、Shopify、楽天などで商品説明を改善したい人</td><td>EC/フリマ 商品説明AIキット</td><td>AIがそれっぽい説明文を作っても、状態、サイズ、付属品、発送条件の抜けや誇張が売買トラブルになる。</td></tr>
+<tr><td>美容室、ネイル、整体、エステなど、SNSから予約につなげたい小規模サロン</td><td>サロンSNS・予約導線AIキット</td><td>投稿は作れても、効果保証っぽい表現や写真許可の抜け、予約までの導線不足が残りやすい。</td></tr>
+<tr><td>行政書士、社労士、税理士、コンサルなど、問い合わせ対応を整理したい専門サービス</td><td>士業/コンサル 問い合わせ整理AIキット</td><td>AI返信は速い一方で、専門判断、契約、見積もり、断定表現を誤ると信用リスクが大きい。</td></tr>
+<tr><td>求人票や候補者返信を改善したい小規模事業者・採用担当</td><td>採用/求人票AIキット</td><td>求人票は盛るほど応募後のミスマッチが増え、曖昧すぎると応募が来ない。</td></tr>
+<tr><td>飲食店、小売、教室、クリニック以外の地域店舗</td><td>地域店舗 Googleビジネス投稿AIキット</td><td>古い営業時間、価格、在庫、効果表現を公開すると、来店前の期待と現場がズレる。</td></tr>
           </tbody>
         </table>
       </div>
     </section>
     <section>
-      <div class="wrap">
-        <h2>注意</h2>
-        <ul>
-          <li>このキットは業務改善や売上増加を保証するものではありません。</li>
-          <li>AIツールの価格、機能、規約は変わるため、導入前に公式サイトで確認してください。</li>
-          <li>専門判断、医療的判断、契約、見積、公開、送信は人間確認を前提にしてください。</li>
-        </ul>
+      <div class="wrap two">
+        <div>
+          <h2>反応を見て改善する</h2>
+          <p>このページは無料配布版です。反応が多い業種、途中で詰まるシート、欲しい自動化をGitHub Issueで集め、次の有料候補を絞ります。</p>
+        </div>
+        <div class="card">
+          <h3>30秒フィードバック</h3>
+          <p>使ったキット、詰まった場所、欲しい業種を送れます。公開Issueとして残るので、次の改善判断に使えます。</p>
+          <p><a class="button primary" href="https://github.com/uzikin7-lang/ai-tool-checklist-sample/issues/new?template=feedback.yml&title=%5B%E5%8F%8D%E5%BF%9C%5D+bundle&kit-id=bundle">反応を送る</a></p>
+        </div>
       </div>
     </section>
   </main>
-  <footer><div class="wrap">AI業務キット集 / 2026-05-13</div></footer>
+<footer><div class="wrap">AI業務キット集 / 2026-05-13 / 投資助言・収益保証ではありません。</div></footer>
 </body>
 </html>
